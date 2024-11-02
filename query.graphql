@@ -1,0 +1,23 @@
+query Works {
+  animals {
+    id
+    name
+    hello
+  }
+}
+
+query WorksToo {
+  animals {
+    ident: id
+    name
+    hello
+  }
+}
+
+query Broken {
+  animals {
+    id: name
+    name
+    hello
+  }
+}

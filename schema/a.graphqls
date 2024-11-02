@@ -1,0 +1,10 @@
+# A
+
+type Query {
+  animals: [Animal!]
+}
+
+type Animal {
+  id: String!
+  name: String!
+}

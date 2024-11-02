@@ -1,0 +1,13 @@
+include_subgraph_errors:
+  all: true
+
+health_check:
+  enabled: false
+
+experimental_query_planner_mode: both_best_effort
+
+supergraph:
+  query_planning:
+    cache:
+      in_memory:
+        limit: 1
